@@ -107,7 +107,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.todo-list__task > * {
+.todo-list__task > .todo-list__checkbox, .todo-list__label, .todo-list__input, .todo-list__button {
   vertical-align: middle;
 }
 .todo-list__checkbox {
@@ -143,11 +143,11 @@ button {
   display: none
 }
 
-.editMode .todo-list__input {
+.edit-mode .todo-list__input {
   display: inline-block;
   width: 224px
 }
 
-.editMode .todo-list__label {
+.edit-mode .todo-list__label {
   display: none;
 }
