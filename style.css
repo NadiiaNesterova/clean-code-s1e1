@@ -48,9 +48,6 @@ input,
 button {
   outline: none;
 }
-.todo-list__header {
-  padding: 20px 0 15px;
-}
 .todo-list__button {
   background: none;
   border: 0px;
