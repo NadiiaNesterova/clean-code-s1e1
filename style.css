@@ -139,7 +139,7 @@ button {
 }
 
 /* Edit Task */
-.todo-list__input {
+.todo-list__task .todo-list__input {
   display: none
 }
 
